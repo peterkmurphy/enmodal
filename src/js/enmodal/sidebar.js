@@ -49,7 +49,7 @@ class Sidebar {
 
     line_selector_new() {
         var line = new Line(this.new_line_name());
-        line.full_name = "Line";
+        line.full_name = "";
 
         var color = this.random_color();
         line.color_bg = color.bg_hex();
@@ -83,7 +83,7 @@ class Sidebar {
     clear_line_selector() {
         enmodal.transit_interface.active_line = null;
         $("#dropdown-line-menu li.line-selector-item").remove();
-        $("#dropdown-line-button").html("Select a line... <span class=\"caret\"></span>");
+        $("#dropdown-line-button").html("Select a route... <span class=\"caret\"></span>");
         $('#custom-line-name').removeClass('issue');
         $('#custom-line-error').text('');
 

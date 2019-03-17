@@ -233,6 +233,7 @@ function init_document() {
         showInitial: true,
         maxSelectionSize: 10,
         preferredFormat: "hex",
+        chooseText: "Choose",
         change: function(color) {
             enmodal.sidebar.update_line_editor();
             enmodal.sidebar.line_editor_save();
@@ -245,6 +246,7 @@ function init_document() {
         showInitial: true,
         maxSelectionSize: 10,
         preferredFormat: "hex",
+        chooseText: "Choose",
         change: function(color) {
             enmodal.sidebar.update_line_editor();
             enmodal.sidebar.line_editor_save();

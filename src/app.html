@@ -3,12 +3,6 @@
     <link rel="stylesheet" href="static/css/app.css" />
     <link rel="stylesheet" href="static/css/gtfs.css" />
     
-    <div id="alpha-warning">
-        <span class="alpha-warning-large">warning! you are viewing an <em>alpha release</em> of enmodal.</span>
-        <br />
-        <br />
-        <span class="alpha-warning-small">maps you create will not be permanently saved. the ridership engine is not to be trusted. there will be bugs.<br /><a href="#" id="alpha-acknowledge" onclick="$('#alpha-warning').hide();">i'm ok with this</a></span>
-    </div>
     <div id="map"></div>
     <div id="map-title">
         <div id="map-title-inner" data-balloon="Click to rename" data-balloon-pos="down">
@@ -137,17 +131,17 @@
                         <div class="card option-section">
                             <div class="card-header option-accordion" role="tab" id="headingTwo">
                                 <a data-toggle="collapse" data-parent="#accordion" href="#collapse-lines" aria-expanded="true" aria-controls="collapse-lines">
-                        Lines
+                        Routes
                         </a>
                             </div>
                             <div id="collapse-lines" class="option-section collapse in" role="tabpanel" aria-labelledby="headingTwo">
                                 <div id="option-section-lines" class="card-block option-section custom-scroll">
                                     <div id="line-selector" class="dropdown dropdown-selector button">
-                                        <button class="btn btn-secondary dropdown-toggle dropdown-button" id="dropdown-line-button" type="button" data-toggle="dropdown">Select a line...
+                                        <button class="btn btn-secondary dropdown-toggle dropdown-button" id="dropdown-line-button" type="button" data-toggle="dropdown">Select a route...
                                             <span class="caret"></span></button>
                                         <ul class="dropdown-menu custom-scroll-dark" id="dropdown-line-menu">
                                             <div class="dropdown-divider"></div>
-                                            <li><a id="line-selector-new" href="#">New Line</a></li>
+                                            <li><a id="line-selector-new" href="#">New Route</a></li>
                                         </ul>
                                     </div>
 
@@ -159,7 +153,7 @@
                                         </div>
                                         <div id="custom-line-options-column-inputs">
 
-                                            <div class="custom-options-label">Line name
+                                            <div class="custom-options-label">Route name
                                                 <br />
                                                 <input type="text" id="custom-line-name" name="custom-line-name" placeholder="?" />
                                             </div>
@@ -222,7 +216,6 @@
                 <div id="save-message" style="display: none;">Saved!</div>
                 <button-sharing @click="modal = 'sharing'"></button-sharing>
                 <a href="http://twitter.com/enmodal" target="_blank" class="tool-button button"><i class="fa fa-lg fa-twitter" aria-hidden="true"></i></a>
-                <a href="https://gratipay.com/enmodal/" target="_blank" class="tool-button button"><i class="fa fa-lg fa-gratipay" aria-hidden="true"></i></a>
                 <div class="attribution"><a href="http://leafletjs.com/">Leaflet</a> | Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ</div>
             </div>
         </div>

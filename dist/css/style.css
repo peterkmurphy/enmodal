@@ -810,6 +810,7 @@ ul.dropdown-lr {
     display: flex;
     display: -webkit-flex;
     overflow-y: scroll;
+    max-height: 350px;
 }
 
 #option-section-route:after {

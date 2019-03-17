@@ -1,6 +1,38 @@
 # enmodal
 
-enmodal is a browser-based service for transit planning and analysis. users can quickly mockup transit services (or “scenario plan” modifications to real-world systems) in their browser. enmodal runs server-side modeling algorithms to analyze the impact of different service modifications, using population and employment data.
+TBD:
+
+(a) Clean up text.
+(b) Allow user to choose location. (i) At beginning; (ii) At will.
+(c) Deleting services and lines. [#Issue #11 of origina bugs]
+(d) Remove/move love button. [Tick]
+(e) Saving works - to DB. 
+(f) Register.
+(g) Log in works.
+(h) Look at existing bugs on enmodal. [Tick]
+(i) Import population data from ABS.
+(j) Change base maps.
+(k) Allow waypoints for better curves!
+(l) Different types of services.
+(m) Remove "Line" from Line dropdown [Tick]
+(o) Capitalization of Choose in colour [Tick]
+(p) Exporting PDF broken
+(q) Pin interrupts
+(r) More magnifiation
+(s) Better scroll Bars for station list [Tick]
+(t) U lines and Y lines, [Not a problem in practice]
+(u) Multiple names for stations. [Probably not a problem]
+(v) Python 3.
+(w) Allow straight lines as well as Bezier curves.
+(x) Change "Line" to "Route" [Done]
+(y) Replace min.js with external links.
+(z) Remove splash screen that say "Alpha" (yes, we know) [Tick]
+(alpha) - Move Load from JSON / Save to File to Main Screen.
+(beta) - Remove dist; keep src.
+(gamma) - Remove MTA from Services [Tick]
+(delta) - Save Map name.
+
+enmodal *was* a browser-based service for transit planning and analysis. Users can quickly mockup transit services (or “scenario plan” modifications to real-world systems) in their browser. enmodal runs server-side modeling algorithms to analyze the impact of different service modifications, using population and employment data.
 
 ## Set up
 

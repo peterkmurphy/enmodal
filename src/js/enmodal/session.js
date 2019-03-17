@@ -12,7 +12,7 @@ function session_new() {
     });
         
     // Initialize service
-    var service = new Service("MTA");
+/*    var service = new Service("MTA");
     service.mode = "heavy_rail";
     enmodal.transit_map.add_service(service);
     enmodal.transit_interface.active_service = service;
@@ -28,7 +28,7 @@ function session_new() {
         dataType: 'json',
         success: function(data, status) {
         }
-    });
+    }); */
 }
 
 function handle_map_data(jdata) {
